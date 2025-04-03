@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">JACKIE</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/254714556166?text=Hi%20Jackie%2C%20I'd%20like%20to%20connect" target="_blank" rel="noopener noreferrer">
+            <div class="nav-connect">Connect With Me</div>
+        </a>
+        
+    </div>
+    
+
+    <div class="hero" id="home">
+        <div class="hero-image">
+            <img src="images/jackie_profile.jpg" alt="jackline">
+        </div>
+        <h1><span>I'm Jackie,</span> a Web Developer based in Nairobi.</h1>
+        <p>I am an experienced web developer from Nairobi, Kenya, with 3 years of experience and certification.</p>
+        <div class="hero-action">
+            <a href="https://wa.me/254714556166" class="hero-connect" target="_blank" rel="noopener noreferrer">
+                Connect with me
+            </a>
+            <a href="JACKLINE MWIKALI SILA RESUME. (AutoRecovered).pdf" class="hero-resume" download>
+                My Resume
+            </a>
+        </div>
+        
+    </div>
+    
+    <section class="about" id="about">
+        <div class="about-title">
+            <h1>About Me</h1>
+            <img src="images/theme_pattern.svg" alt="Pattern">
+        </div>
+        
+        <div class="about-container">
+            <!-- Left Column (Profile Picture) -->
+            <div class="about-left">
+                <img src="images/me about.jpg" alt="jackie">
+            </div>
+
+            <!-- Right Column (Description) -->
+            <div class="about-right">
+                <p>I am a dedicated and adaptable junior software developer with a strong passion for full-stack web development. My ability to learn quickly allows me to stay updated with the latest technologies, ensuring that I can efficiently build and optimize web applications. I thrive in collaborative environments, where teamwork and communication play a key role in delivering high-quality software solutions. Additionally, I have a problem-solving mindset, enabling me to analyze challenges, debug issues, and develop effective solutions with resilience and determination. My goal is to continuously grow as a developer, contribute to meaningful projects, and create seamless user experiences through well-structured and efficient code.</p>
+                <p>Demonstrates a strong aptitude for rapid learning, effective team collaboration, and resilience in problem-solving.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="education-box">
+            
+            <div class="education-left">
+                <img src="images/kyu_logo2.png" alt="Kirinyaga University Logo">
+            </div>
+    
+            
+            <div class="education-right">
+                <h3>Kirinyaga University</h3>
+                <p>Bachelor's Degree in Economics and Statistics</p>
+                <p>Currently Pursuing</p>
+                <p><strong>Expected Graduation:</strong> September 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <p class="portfolio-intro">These are my current projects which I have done.</p>
+    
+        <div class="portfolio-container">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <img src="images/digitalclock 2.PNG" alt="Project 1">
+                <h3>Digital Clock</h3>
+                <p>A simple digital clock application showcasing real-time updates and styling.</p>
+                <a href="https://denis642.github.io/DIGITAL-CLOCK-2/" target="_blank" class="btn">View Live</a>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project-box">
+                <img src="images/crpto.PNG" alt="Project 2">
+                <h3>Cryptoplace site</h3>
+                <p>CryptoPlace is a React-based web application that provides real-time cryptocurrency data using the CoinGecko API. The app allows users to track market prices, view detailed coin statistics, and switch between different currencies.</p>
+                <a href="https://deno-cryptoplace.netlify.app/" target="_blank" class="btn">View Live</a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>  
+        
+        <div class="contact-content">
+            <div class="contact-col">
+                <h3>Send us a message <img src="images/msg-icon.png" alt="Message Icon"></h3>
+                <p>
+                    Feel free to reach out through the contact form or find our contact information below.
+                    Your feedback, questions, and suggestions are highly welcomed or any work you have for me am ready to tackle it.
+                </p>
+                <ul>
+                    <li><img src="images/mail-icon.png" alt="Email Icon"> contact@jackietheceo.dev</li>
+                    <li><img src="images/phone-icon.png" alt="Phone Icon"> +254714556166</li>
+                    <li><img src="images/location-icon.png" alt="Location Icon"> 143 Kerugoya<br>10300 Kirinyaga</li>
+                </ul>
+            </div>
+            
+            <div class="contact-col">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <label>Your Name</label>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    
+                    <label>Phone Number</label>
+                    <input type="tel" name="phone" placeholder="Enter your mobile number" required>
+                    
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label>Write your message here</label>
+                    <textarea name="message" rows="6" placeholder="Enter your message" required></textarea>
+                    
+                    <!-- Hidden field for API Key -->
+                    <input type="hidden" name="apikey" value="d76fde0e-5cc3-4e68-a7b5-4e0ed1eaf155">
+                    
+                    <button type="submit" class="btn dark-btn">Submit Now <img src="images/white-arrow.png" alt="Arrow"></button>
+                    <span id="resultMessage"></span>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const formData = new FormData(this);
+    const resultMessage = document.getElementById('resultMessage');
+
+    // Submit the form data to Web3Forms
+    fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert("Message sent successfully!");
+            // Clear the form fields
+            document.getElementById('contactForm').reset();
+        } else {
+            alert("Something went wrong, please try again.");
+        }
+    })
+    .catch(error => {
+        alert("There was an error submitting the form.");
+    });
+});
+
+    </script>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 CEO JACKIE. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Jackie12-CEO" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://wa.me/+254714556166" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+
+    
+</body>
+</html>
