@@ -11,6 +11,7 @@ I am passionate about building clean, responsive, and user-friendly web interfac
 This portfolio showcases both my technical competencies and my personal commitment to excellence in all areas of professional and academic development.
 
 I have put together my portifolio to showcase my skills, projects, and experiences in front-end and back-end development using technologies such as react, flask, javascript, and python.you can explore it here.
+
 view my portifolio: https://jackieceo.netlify.app
 
 ##  Website Features
@@ -25,7 +26,9 @@ view my portifolio: https://jackieceo.netlify.app
 
 ## 📬 Contact
 Name: Jackline Mwikali Sila
+
 Email: jacklinemwikali2003@gmail.com
+
 GitHub: https://github.com/Jackie12-CEO
 
 
